@@ -1,0 +1,58 @@
+* { box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+header {
+    background-color: white;
+    margin: auto;
+    font-size: 35px;
+    color: goldenrod;
+    width: fit-content;
+
+}
+
+#nav-ul {
+list-style-type: none;
+background-color: aqua;
+overflow: auto;
+margin: -10px;
+
+}
+
+.nav-li {
+float:left;
+}
+
+li a {
+display: block;
+color: goldenrod;
+text-align: centre;
+padding: 10px ;
+text-decoration: none;
+}
+
+a:hover{
+background-color: aquamarine;
+}
+
+footer { 
+background-color:aqua;
+text-align: center;
+color:  goldenrod;
+margin: -10px;
+margin-top: 10px;;
+}
+
+div{
+
+padding-left: 10px;
+background-color: azure;
+padding-bottom: 5px;
+}
+
